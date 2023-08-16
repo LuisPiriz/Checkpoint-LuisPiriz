@@ -1,0 +1,23 @@
+27  git init
+   28  touch main.js index.html
+   29  git remote add origin https://github.com/LuisPiriz/Checkpoint-LuisPiriz-16-8-23.git
+   30  git add .
+   31  git commit -m "Creado index.html y main.js"
+   32  git push origin master
+   33  git branch feature
+   34  git branch
+   35  git checkout feature
+   36  mkdir Hardware Software SeguridadInformatica
+   37  touch Hardware/resumen.txt
+   38  touch Software/resumen.txt
+   39  touch SeguridadInformatica/resumen.txt
+   40  git add
+   41  git add .
+   42  git commit -m "Creadas las carpetas con los resumenes"
+   43  git push origin feature
+   44  git chechout master
+   45  git checkout master
+   46  mv main.js resumenHardware.txt
+   47  mv index.html resumenSoftware.txt
+   48  touch comandos.txt
+   49  history
